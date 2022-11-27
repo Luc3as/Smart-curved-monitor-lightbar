@@ -59,7 +59,13 @@ For firmware I used ESPHOME, you can find config in firmware.yaml
 
 ## Materials
 
-TBD
+* [Wemos D1 Mini](https://www.aliexpress.com/item/32831353752.html?spm=a2g0o.productlist.0.0.153f1669auHDVy&algo_pvid=d2e52dc5-09a3-4128-b33f-f8edf82bf099&algo_exp_id=d2e52dc5-09a3-4128-b33f-f8edf82bf099-0&pdp_ext_f=%7B%22sku_id%22%3A%2210000014440741148%22%7D&pdp_npi=2%40dis%21EUR%211.95%211.95%21%21%21%21%21%402100bddf16695713523975448ec69b%2110000014440741148%21sea&curPageLogUid=wjcIQQBQWYzf)
+* [USB-C female connector ](https://www.aliexpress.com/item/1005002795893679.html?spm=a2g0o.order_list.0.0.18751802bFIGnc)
+* [Hot melt inserts ](https://www.aliexpress.com/item/1005003150553284.html?spm=a2g0o.order_list.0.0.18751802bFIGnc)
+* [Dual CCT 5V LED Strip](https://www.aliexpress.com/item/1005001729120581.html?spm=a2g0o.order_list.0.0.18751802bFIGnc)
+* [WS2812b RGB LED Strip](https://www.aliexpress.com/item/1005002890783311.html?spm=a2g0o.productlist.0.0.249574carP6i8E&algo_pvid=4a2dd48e-3c8f-4be8-9fe9-4513ba24b418&algo_exp_id=4a2dd48e-3c8f-4be8-9fe9-4513ba24b418-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000029156336140%22%7D&pdp_npi=2%40dis%21EUR%2134.26%2119.53%21%21%21%21%21%402100bdd016695714637331031e42ef%2112000029156336140%21sea&curPageLogUid=qV0vPj5TmLlr)
+* [IRFZ44N MOSFET Transistor](https://www.aliexpress.com/item/1005004930806422.html?spm=a2g0o.productlist.0.0.35c428daaSC1gC&algo_pvid=b536e603-06af-44a7-baf1-a7388cabf138&algo_exp_id=b536e603-06af-44a7-baf1-a7388cabf138-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000031067190205%22%7D&pdp_npi=2%40dis%21EUR%210.95%210.47%21%21%21%21%21%402100bdd016695715236882195e42ef%2112000031067190205%21sea&curPageLogUid=dfzz1Zigxw7S)
+
 
 ## If you liked my work, you could buy me a coffee :)
 
