@@ -13,7 +13,7 @@ Universal attachment arms with adjustable height and angle for different monitor
 
 
 ## Designing the lightbar
-Main goal here was to find a way and arrangement of led strip to provide light shining to desk, but without glaring into users’ eyes sitting behind the desk or casting light glares on monitor. I did some tests, measurements, came up with different lamp body designs, after few versions I came up with good solutions to satisfy those needs. 
+Main goal here was to find a way and arrangement of led strip to provide light shining to desk, but without glaring into users’ eyes sitting behind the desk or casting light glares on monitor. I did some tests, measurements, came up with different lamp body designs, after few versions I came up with good solutions to satisfy those needs.  
 <img src="./Photos/design1.jpeg" width="400">
 <img src="./Photos/design2.jpeg" width="400">
 <img src="./Photos/design3.jpeg" width="400">
