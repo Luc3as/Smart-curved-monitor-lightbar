@@ -1,0 +1,69 @@
+substitutions:
+  devicename: "monitor-lightbar"
+  upper_devicename: "Lampa PC"
+
+esphome:
+  name: $devicename
+  platform: ESP8266
+  board: d1_mini
+
+wifi:
+  networks:
+  - ssid: !secret wifi_ssid
+    password: !secret wifi_password
+
+# Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: ${upper_devicename} Hotspot
+    password: !secret esphome_fallback_ap_pass
+
+captive_portal:
+
+# Enable logging
+logger:
+# level: debug
+
+# Enable Home Assistant API
+# Enable Home Assistant API
+api:
+  password: !secret esphome_api_pass
+
+ota:
+  password: !secret esphome_ota_pass
+    
+web_server:
+  port: 80
+  auth:
+    username: admin
+    password: "pass"
+    
+    
+light:
+  - platform: neopixelbus
+    name: "Podsvietenie monitor"
+    type: GRB
+    pin: GPIO3
+    num_leds: 41
+    variant: WS2812
+    effects:
+      - addressable_rainbow:
+      - addressable_color_wipe:
+      - addressable_scan:
+      - addressable_flicker:
+    
+  - platform: cwww
+    name: "Svetlo PC"
+    cold_white: cold_white
+    warm_white: warm_white
+    cold_white_color_temperature: 6536 K
+    warm_white_color_temperature: 2000 K
+    constant_brightness: false
+
+output:    
+  - platform: esp8266_pwm
+    id: warm_white
+    pin: D6
+
+  - platform: esp8266_pwm
+    id: cold_white
+    pin: D7
