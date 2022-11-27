@@ -1,5 +1,6 @@
-## Idea behind this project
 <img src="./Photos/titulka.jpg" width="700">
+
+## Idea behind this project
 
 Custom made light bar, with easy connectivity and controllability from any home automation system. 
 Integrated dual CCT light strip, to set just right color of light by time of day or type of task doing under the light. 
@@ -21,6 +22,7 @@ Main goal here was to find a way and arrangement of led strip to provide light s
 ## Printing and assembling
 
 As material I picked PETG, but PLA would be OK too.
+
 <img src="./Photos/assembly1.jpeg" width="400">
 
 Parts was designed to fit on standard size 3D printer
